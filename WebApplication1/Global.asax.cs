@@ -9,6 +9,7 @@ namespace WebApplication1
     {
         protected void Application_Start()
         {
+            //test 1
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
